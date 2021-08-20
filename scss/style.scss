@@ -31,8 +31,7 @@ body {
     var(--pale-blue);
   height: 100vh;
   display: grid;
-  align-items: center;
-  justify-content: center;
+  place-items: center;
 
   @media (max-width: 700px) {
     background: no-repeat top center / contain
